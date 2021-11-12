@@ -1,0 +1,225 @@
+/* Global Styles */
+body {
+    background-color: #D92B3A;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Mobile Styles */
+
+#container {
+    background-color: #7EA5D9;
+    margin: 10px;
+}
+
+header {
+    background-image: url('../images/amusementpark.jpg');
+    background-size: cover;
+    padding: 70px 0;
+}
+
+header h1 {
+    color: #F2DA63;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #D92B3A;
+    color: #F2DA63;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #7EA5D9;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #F2DA63;
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid #D92B3A;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #D92B3A;
+    text-shadow: 2px 2px 2px #000;
+    font-align: 1.5em;
+    text-align: center;
+}
+
+section img, aside img {
+    width: 65%;
+}
+
+.button {
+    display: block;
+    background-color: #D92B3A;
+    color: #F2DA63;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #7EA5D9;
+    text-shadow: 2px 2px 2px #000;
+}
+
+footer {
+    text-align: center;
+    color: #D92B3A;
+}
+
+.single_col {
+    width: 83%;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    border: 4px solid #D92B3A;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles */
+
+@media(min-width: 750px) {
+    header {
+        padding: 125px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;
+
+    }
+
+    nav li a {
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    .col img {
+        width: 60%;
+        border-radius: 10px;
+        border: 4px solid #D92B3A;
+    }
+
+    .single_col {
+        width: 95%;
+    }
+
+}
+
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid #F2DA63;
+        border-radius: 20px;
+    }
+
+    header {
+        border: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .col img {
+        width: 100%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid #D92B3A;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 400%;
+    }
+
+    .gallery {
+        display: none;
+
+    }
+
+    table {
+        display: block;
+    }
+}
