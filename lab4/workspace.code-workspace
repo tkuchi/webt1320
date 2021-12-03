@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "lab4",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
