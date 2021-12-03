@@ -8,4 +8,5 @@
     <li><a href="lab2copy/index.html" target="blank">Lab 2</a></li>
     <li><a href="lab3/index.html" target="blank">Lab 3</a></li>
     <li><a href="lab4/index.html" target="blank">Lab 4</a></li>
+    <li><a href="finalproject/index.html" target="blank">Final Project</a></li>
 </ul>
