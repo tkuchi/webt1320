@@ -69,7 +69,7 @@ nav, section, aside, .col, footer {
 h2, h3 {
     color: #594959;
     text-shadow: 2px 2px 2px #FBFAF8;
-    text-align: 1.5em;
+    text-align: center;
     text-align: center;
 }
 
@@ -180,11 +180,7 @@ table {
         border: 4px solid #D19E83;
         border-radius: 20px;
     }
-
-    header {
-        border: 20px 20px 0 0;
-    }
-
+    
     nav li a {
         margin: 0 20px;
     }
